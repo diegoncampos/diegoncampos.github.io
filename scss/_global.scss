@@ -19,7 +19,7 @@ h4,
 h5,
 h6 {
   @include heading-font;
-  font-weight: 700;
+  font-weight: 200;
   text-transform: uppercase;
   color: $gray-800;
 }
@@ -37,10 +37,12 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   @include heading-font;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
 }
 
 .list-social-icons {
+  position: absolute;
+  bottom: 30px;
   a {
     color: $gray-700;
     &:hover {
@@ -58,5 +60,11 @@ h2 {
     &:hover {
       color: $primary;
     }
+  }
+}
+
+#about {
+  h1 {
+    letter-spacing: -4px;
   }
 }

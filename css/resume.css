@@ -17,8 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
+  font-family: 'Avenir';
+  font-weight: 200;
   text-transform: uppercase;
   color: #343a40;
 }
@@ -35,8 +35,13 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+  font-family: 'Avenir';
+  font-size: 1.2rem;
+}
+
+.list-social-icons {
+  position: absolute;
+  bottom: 30px;
 }
 
 .list-social-icons a {
@@ -57,6 +62,10 @@ h2 {
 
 .list-icons .list-inline-item i:hover {
   color: #0e551f;
+}
+
+#about h1 {
+  letter-spacing: -4px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -114,6 +123,10 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
+}
+
+section.resume-section .subheading {
+  margin-bottom: 5px !important;
 }
 
 @media (min-width: 768px) {
