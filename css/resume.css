@@ -39,11 +39,6 @@ h2 {
   font-size: 1.2rem;
 }
 
-.list-social-icons {
-  position: absolute;
-  bottom: 30px;
-}
-
 .list-social-icons a {
   color: #495057;
 }
@@ -143,6 +138,15 @@ section.resume-section .subheading {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
+}
+
+.list-social-icons {
+  position: absolute;
+  bottom: 30px;
+}
+
+.about {
+  padding-top: 30px;
 }
 
 .bg-primary {
