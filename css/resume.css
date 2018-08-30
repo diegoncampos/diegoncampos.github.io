@@ -106,10 +106,6 @@ h2 {
   }
 }
 
-#sideNav .navbar-brand .img-profile {
-  max-height: 65px;
-}
-
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 6rem !important;
@@ -168,6 +164,19 @@ section.resume-section .subheading {
 
 #about .about-text {
   padding-top: 30px;
+}
+
+#interests .img-mate {
+  height: 30px;
+  vertical-align: bottom;
+}
+
+#skills .skills-list {
+  padding-bottom: 3rem;
+}
+
+#skills .list-icons {
+  max-width: 50rem;
 }
 
 .bg-primary {

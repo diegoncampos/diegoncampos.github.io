@@ -64,3 +64,25 @@ section.resume-section {
     padding-top: 30px;
   }
 }
+
+// --> Interests
+#interests {
+  .img-mate {
+    height: 30px;
+    vertical-align: bottom;
+  }
+}
+
+
+// --> Skills
+#skills{
+  .skills-list {
+    padding-bottom: 3rem;
+    // -webkit-column-count:2;
+    // -moz-column-count:2;
+    // column-count:2;
+  }
+  .list-icons {
+    max-width: 50rem;
+  }
+}
