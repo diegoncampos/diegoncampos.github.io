@@ -25,7 +25,7 @@
       padding: 0.5rem;
       .img-profile {
         max-width: 10rem;
-        max-height: 10rem;
+        max-height: 10rem !important;
         border: 0.5rem solid fade-out($white, 0.8);
       }
     }
@@ -54,15 +54,13 @@
 }
 
 // Profile Image on mobile view
-// #sideNav {
-//   .navbar-brand {
-//     .img-profile {
-//       max-width: 10rem;
-//       max-height: 10rem;
-//       border: 0.5rem solid fade-out($white, 0.8);
-//     }
-//   }
-//   button {
-//     position: absolute;
-//   }
-// }
+#sideNav {
+  .navbar-brand {
+    .img-profile {
+      max-height: 65px;
+    }
+  }
+  // button {
+  //   position: absolute;
+  // }
+}
