@@ -30,11 +30,36 @@ section.resume-section {
   }
 }
 
-// About
-.list-social-icons {
-  position: absolute;
-  bottom: 30px;
+// --> About
+
+// Desktop
+@media (min-width: 992px) {
+  #about {
+    margin-top: 0 !important;
+    .list-social-icons {
+      position: absolute;
+      bottom: 30px;
+    }
+    .myName {
+      font-size: 6rem !important;
+    }
+    .subheading {
+      font-size: 1.2rem !important;
+    }
+  }
 }
-.about {
-  padding-top: 30px;
+// Mobile First
+
+#about {
+  margin-top: 18rem;
+  .myName {
+    letter-spacing: -4px;
+    font-size: 3rem;
+  }
+  .subheading {
+    font-size: 1.2rem;
+  }
+  .about-text {
+    padding-top: 30px;
+  }
 }

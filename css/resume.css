@@ -59,10 +59,6 @@ h2 {
   color: #0e551f;
 }
 
-#about h1 {
-  letter-spacing: -4px;
-}
-
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
@@ -140,12 +136,36 @@ section.resume-section .subheading {
   }
 }
 
-.list-social-icons {
-  position: absolute;
-  bottom: 30px;
+@media (min-width: 992px) {
+  #about {
+    margin-top: 0 !important;
+  }
+  #about .list-social-icons {
+    position: absolute;
+    bottom: 30px;
+  }
+  #about .myName {
+    font-size: 6rem !important;
+  }
+  #about .subheading {
+    font-size: 1.2rem !important;
+  }
 }
 
-.about {
+#about {
+  margin-top: 18rem;
+}
+
+#about .myName {
+  letter-spacing: -4px;
+  font-size: 3rem;
+}
+
+#about .subheading {
+  font-size: 1.2rem;
+}
+
+#about .about-text {
   padding-top: 30px;
 }
 
