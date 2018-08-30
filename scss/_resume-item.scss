@@ -36,6 +36,7 @@ section.resume-section {
 @media (min-width: 992px) {
   #about {
     margin-top: 0 !important;
+    max-width: 60rem;
     .list-social-icons {
       position: absolute;
       bottom: 30px;

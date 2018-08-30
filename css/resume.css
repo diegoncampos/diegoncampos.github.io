@@ -139,6 +139,7 @@ section.resume-section .subheading {
 @media (min-width: 992px) {
   #about {
     margin-top: 0 !important;
+    max-width: 60rem;
   }
   #about .list-social-icons {
     position: absolute;
